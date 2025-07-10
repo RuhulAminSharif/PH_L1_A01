@@ -7,6 +7,18 @@
   color: #4E47FF;
 }
 
+.statistic-h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.statistic-p{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  opacity: 50%;
+}
+
 /* Common styles */
 .btn {
   padding: 12px 36px;
@@ -56,6 +68,7 @@ header {
   margin-bottom: 24px;
 }
 
+/* action styles */
 .action {
   display: flex;
   justify-content: space-between;
@@ -84,4 +97,29 @@ header {
 .action-image img{
   width: 100%;
   border-radius: 48px;
+}
+
+/* productive users styles */
+.productive-users{
+  margin-left: 141px;
+  margin-right: 159px;
+}
+
+.productive-users-content {
+  margin: 50px 142px;
+}
+
+.productive-users-title{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.statistics{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
