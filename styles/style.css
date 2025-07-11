@@ -4,9 +4,11 @@
   padding: 0;
 }
 
-
 .primary-color {
   color: #4e47ff;
+}
+body {
+  background-color: #f5f8ff;
 }
 
 .statistic-h1 {
@@ -22,6 +24,9 @@
 }
 
 /* Common styles */
+section {
+  background: rgba(255, 255, 255, 0.5);
+}
 .btn {
   padding: 12px 36px;
   border-radius: 6px;
@@ -36,7 +41,7 @@
 /* hover with animation */
 .btn:hover {
   color: black;
-  background-color: #FFB805;
+  background-color: #ffb805;
   transition: 0.5s;
 }
 
@@ -46,6 +51,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 0 116 0;
 }
 /* navbar styles */
 .header .navbar {
@@ -82,8 +88,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 115px 140px;
+  margin: 116px 141px;
   font-family: "Raleway", sans-serif;
+  background-color: #f5f8ff;
 }
 
 .action-preview {
@@ -139,12 +146,13 @@ header {
 
 /* Contact Section */
 .get-in-touch {
-  margin: 150px;
+  margin: 150px 150px 0px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Raleway", sans-serif;
   gap: 125px;
+  background: rgba(255, 255, 255, 0.5);
 }
 .get-in-touch-title h1 {
   font-size: 97px;
@@ -193,8 +201,18 @@ header {
 }
 
 /* footer styles */
+.footer {
+  background: rgba(255, 255, 255, 1);
+  
+  margin-top: 14px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 71px 150px;
+  height: 428px;
+}
 .footer-content {
   margin: 104px 455px;
+  min-width: 531px;
+  min-height: 221px;
 }
 
 .footer-description {
@@ -204,15 +222,18 @@ header {
 .footer-content-logo {
   font-family: "Inter", sans-serif;
   font-size: 100px;
-  font-weight: bolder;
+  font-weight: 900;
   text-align: center;
-  margin: 0 120px 8px 120px;
+  color: "Inter", sans-serif;
 }
 
 .footer-content-text {
-  font-family: "Agate", sans-serif;
-  color: rgba(137, 135, 161, 1);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
   text-align: center;
+  color: #8987a1;
 }
 
 .footer-nav {
@@ -233,12 +254,18 @@ header {
 
 .footer-nav-list a {
   text-decoration: none;
-  color: rgba(137, 135, 161, 1);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8987a1;
 }
 
 /* user feedback */
 .user-feedback {
   margin: 150px;
+  background-color: #f5f8ff;
+
 }
 .user-feedback h1 {
   font-family: "Raleway", sans-serif;
@@ -264,8 +291,9 @@ header {
   padding: 24px;
   width: 100%;
   min-width: 240px;
+  background: rgba(255, 255, 255, 0.5);
 }
-.feedback{
+.feedback {
   margin: 0 24px 0 0px;
 }
 .rating {
@@ -303,7 +331,7 @@ header {
 }
 
 .user-name {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -311,9 +339,49 @@ header {
 }
 
 .date {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   color: #b3b3b3;
+}
+
+/* focus better */
+
+.focus-better {
+  margin: 150px 150px 0px 150px;
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 71px 150px;
+}
+
+.focus-better-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.focus-better-description {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-better-btn {
+  display: block;
+  margin: 20px auto;
+}
+
+.focus-better-img {
+  border-radius: 48px;
+  margin: auto;
+  display: block;
+  align-items: center;
 }
