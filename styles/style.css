@@ -210,7 +210,6 @@ header {
   height: 428px;
 }
 .footer-content {
-  margin: 104px 455px;
   min-width: 531px;
   min-height: 221px;
 }
@@ -248,7 +247,7 @@ header {
   gap: 20px;
   list-style-type: none;
   text-align: center;
-  font-family: "Agate", sans-serif;
+  font-family: "Inter", sans-serif;
   color: rgba(137, 135, 161, 1);
 }
 
