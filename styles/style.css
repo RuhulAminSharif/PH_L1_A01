@@ -143,14 +143,16 @@ header {
   gap: 125px;
 }
 .get-in-touch-title h1 {
-  font-size: 105px;
+  font-size: 97px;
   font-weight: bold;
   color: #000000;
-  margin-bottom: 24px;
   margin: 200px 0px;
   line-height: 120%;
 }
 
+.form {
+  margin: 71px 0px;
+}
 
 .get-in-touch .form input[type="text"],
 .get-in-touch .form input[type="email"], 
@@ -159,7 +161,6 @@ header {
   border-radius: 10px;
   width: 497px;
   margin-top: 10px;
-  margin-bottom: 10px;
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: Medium;
@@ -173,6 +174,7 @@ header {
   font-weight: Medium;
   color: rgba(0, 0, 0, 1);
   display: block;
+  margin-top: 20px;
 }
 
 .get-in-touch .form button {
@@ -183,9 +185,49 @@ header {
   padding: 20px 100px;
   font-weight: bold;
   font-size: 16px;
+  margin-top: 20px;
 }
 
 /*  */
 .footer-content{
   margin: 104px 455px;
+}
+
+.footer-description{
+  margin-bottom: 20px;
+}
+
+.footer-content-logo{
+  font-family: 'Inter', sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0 120px 8px 120px;
+}
+
+.footer-content-text{
+  font-family: 'Agate', sans-serif;
+  color: rgba(137, 135, 161, 1);
+  text-align: center;
+}
+
+.footer-nav{
+  margin: 20px 65px 0px 65px;
+  text-align: center;
+}
+
+.footer-nav-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  text-align: center;
+  font-family: 'Agate', sans-serif;
+  color: rgba(137, 135, 161, 1);
+}
+
+.footer-nav-list a{
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
 }
